@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.28532608695652173" />
+        <entry key="..\:/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_home.xml" value="0.28532608695652173" />
+        <entry key="..\:/Full Sail/AHI/CurrentVictoriousUndine/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Full Sail/AHI/CurrentVictoriousUndine/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_log_in_screen.xml" value="0.1" />
+        <entry key="..\:/Full Sail/AHI/CurrentVictoriousUndine/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_main.xml" value="0.28532608695652173" />
+        <entry key="..\:/Full Sail/AHI/CurrentVictoriousUndine/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_my_info.xml" value="0.1" />
+        <entry key="..\:/Full Sail/AHI/CurrentVictoriousUndine/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_registration.xml" value="0.13043478260869565" />
+        <entry key="..\:/Full Sail/AHI/CurrentVictoriousUndine/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_lac_list.xml" value="0.28532608695652173" />
+        <entry key="..\:/Full Sail/AHI/CurrentVictoriousUndine/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_profile.xml" value="0.28532608695652173" />
+        <entry key="..\:/Full Sail/AHI/VictoriousUndinenewestversioncheck/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.28532608695652173" />
+        <entry key="..\:/Full Sail/AHI/VictoriousUndinenewestversioncheck/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_edit_popup_screen.xml" value="0.20520833333333333" />
+        <entry key="..\:/Full Sail/AHI/VictoriousUndinenewestversioncheck/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_main.xml" value="0.27898550724637683" />
+        <entry key="..\:/Full Sail/AHI/VictoriousUndinenewestversioncheck/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_home.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21875" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_base.xml" value="0.11911231884057971" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_calendar_pop_up.xml" value="0.3625" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_completed_milestones.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_fragment_lactation_list.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_add_popup_screen.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_edit_popup_screen.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_log_in.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_log_in_screen.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_my_info.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_notifications.xml" value="0.1" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_profile.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_registration.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_home.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_lac_list.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_profile.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/activity_completed_milestones.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.3625" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_add_popup_screen.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/activity_log_in_screen.xml" value="0.25" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/activity_my_info.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/activity_notifications.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/activity_registration.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/fragment_lac_list.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones.xml" value="0.3625" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/LacLog Attempt/Codebase/MILKFLO/app/src/main/res/layout/fragment_profile.xml" value="0.3625" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/MILKFLO/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/School/Most Recent Repo/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.2907608695652174" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/School/Most Recent Repo/Codebase/MILKFLO/app/src/main/res/layout/activity_log_in_screen.xml" value="0.2907608695652174" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/School/Most Recent Repo/Codebase/MILKFLO/app/src/main/res/layout/activity_main.xml" value="0.2907608695652174" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/School/Most Recent Repo/Codebase/MILKFLO/app/src/main/res/layout/fragment_home.xml" value="0.34322916666666664" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/School/Most Recent Repo/Codebase/MILKFLO/app/src/main/res/layout/fragment_lac_list.xml" value="0.3572916666666667" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/School/Most Recent Repo/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones.xml" value="0.28046142754145637" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/School/Most Recent Repo/Codebase/MILKFLO/app/src/main/res/layout/fragment_profile.xml" value="0.3572916666666667" />
+        <entry key="..\:/Users/kevmo/OneDrive/Desktop/School/Most Recent Repo/Codebase/MILKFLO/app/src/main/res/menu/nav_menu.xml" value="0.2828125" />
+        <entry key="..\:/Users/uchih/Desktop/03232022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones.xml" value="0.33" />
+        <entry key="..\:/Users/uchih/Desktop/03242022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones.xml" value="0.2" />
+        <entry key="..\:/Users/uchih/Desktop/03242022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones2.xml" value="0.13148148148148148" />
+        <entry key="..\:/Users/uchih/Desktop/4102022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_completed_milestones.xml" value="0.22" />
+        <entry key="..\:/Users/uchih/Desktop/4102022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/uchih/Desktop/4102022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_my_info.xml" value="0.1" />
+        <entry key="..\:/Users/uchih/Desktop/4102022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_notifications.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/uchih/Desktop/4102022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/uchih/Desktop/4102022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/menu/nav_menu.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/drawable/ic_milestones.xml" value="0.2985" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_calendar_pop_up.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_completed_milestones.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_add_popup_screen.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_edit_popup_screen.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_log_in_screen.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_my_info.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_notifications.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_registration.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/uchih/Desktop/Victorious new/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones.xml" value="0.14722222222222223" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_fragment_lactation_list.xml" value="0.33" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_home.xml" value="0.25226449275362317" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_add_popup_screen.xml" value="0.2957427536231884" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_edit_popup_screen.xml" value="0.2957427536231884" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_log_in_screen.xml" value="0.33" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_main.xml" value="0.25226449275362317" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_profile.xml" value="0.2957427536231884" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_home.xml" value="0.25226449275362317" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_lac_list.xml" value="0.25226449275362317" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_milestones.xml" value="0.25226449275362317" />
+        <entry key="..\:/Victorious Undine Prototype screens/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_profile.xml" value="0.25226449275362317" />
+        <entry key="..\:/victoriousundinevideotestproject272022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_calendar_pop_up.xml" value="0.17831813576494426" />
+        <entry key="..\:/victoriousundinevideotestproject272022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_lactation_list_add_popup_screen.xml" value="0.27898550724637683" />
+        <entry key="..\:/victoriousundinevideotestproject272022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/activity_main.xml" value="0.27898550724637683" />
+        <entry key="..\:/victoriousundinevideotestproject272022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_home.xml" value="0.28532608695652173" />
+        <entry key="..\:/victoriousundinevideotestproject272022/2201-2203o-Victorious-Undine-CS-/Codebase/MILKFLO/app/src/main/res/layout/fragment_lac_list.xml" value="0.3482789855072464" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2907608695652174" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

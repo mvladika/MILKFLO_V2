@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LactationListAddPopUpScreen"
+    android:background="#8C3DCA">
+
+    <TextView
+        android:id="@+id/newEntryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/new_entry_lactation_log"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/newEntryTable"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/timenewentry"
+            android:textColor="#8C3DCA"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/hourEdit"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/time"
+            android:inputType="number"
+            android:hint="    HH"/>
+
+        <TextView
+            android:id="@+id/colon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/hourEdit"
+            android:text=":"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/minuteEdit"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/colon"
+            android:inputType="number"
+            android:hint="    MM"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/datenewentry"
+            android:textColor="#8C3DCA"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/monthEdit"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/date"
+            android:hint=" MM"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/forwardSlash1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/monthEdit"
+            android:text="/"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/dayEdit"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/forwardSlash1"
+            android:inputType="number"
+            android:hint="  DD"/>
+
+        <TextView
+            android:id="@+id/forwardSlash2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/dayEdit"
+            android:text="/"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/yearEdit"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/forwardSlash2"
+            android:inputType="number"
+            android:hint="    YY"
+            />
+
+        <TextView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/left_side_new_entry"
+            android:textColor="#8C3DCA"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/leftNum"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/left"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/leftMeasurement"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/leftNum" />
+
+        <TextView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/left"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/right_side_new_entry"
+            android:textColor="#8C3DCA"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/rightNum"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/left"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/right"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/rightMeasurement"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/rightNum" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/cancelNewEntry"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="88dp"
+        android:layout_height="67dp"
+        android:layout_below="@id/newEntryTable"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/addButtonNewEntry"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="88dp"
+        android:layout_height="67dp"
+        android:layout_below="@id/newEntryTable"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/cancelNewEntry"
+        android:text="@string/addbutton" />
+
+</RelativeLayout>

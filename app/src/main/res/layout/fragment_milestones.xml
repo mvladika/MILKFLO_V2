@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#8C3DCA">
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Save Changes" />
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8C3DCA">
+
+            <LinearLayout
+                    android:id="@+id/milestonesList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/milestonesText"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="16dp">
+
+                    <RelativeLayout
+                        android:id="@+id/m1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m1checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:text="@string/m1"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m1comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m1checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m2checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m2"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m2comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m2checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m3checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m3"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m3comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m3checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m4checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m4"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m4comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m4checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m5checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m5"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m5comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m5checkbox"
+                            android:checked="false"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m6checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m6"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m6comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m6checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+
+                    </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/milestonesText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/milestones"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="36sp" />
+
+                <RelativeLayout
+                        android:id="@+id/m7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m7checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m7"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m7comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m7checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m8checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m8"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m8comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m8checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m9checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m9"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m9comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m9checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m10checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m10"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m10comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m10checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m11checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m11"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m11comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m11checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m12checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m12"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m12comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m12checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m13checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m13"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m13comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m13checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m14checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m14"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m14comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m14checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m15checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m15"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m15comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m15checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m16checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m16"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m16comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m16checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m17checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m17"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m17comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m17checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m18checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m18"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m18comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m18checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m19checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m19"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m19comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m19checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/m20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp">
+
+                        <CheckBox
+                            android:id="@+id/m20checkbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="@string/m20"
+                            android:textColor="#8C3DCA"
+                            android:textSize="22sp" />
+
+                        <EditText
+                            android:id="@+id/m20comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/m20checkbox"
+                            android:ems="10"
+                            android:hint="@string/comment"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

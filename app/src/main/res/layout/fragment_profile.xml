@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8C3DCA">
+
+    <TextView
+        android:id="@+id/profileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:text="@string/profile"
+        />
+
+    <View
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/profileText"
+        android:layout_marginTop="5dp"
+        android:background="?android:attr/listDivider" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/divide"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/myInfoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:clickable="true"
+            android:text="@string/my_infoProfile"
+            android:textColor="#8C3DCA"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/notificationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myInfoButton"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:clickable="true"
+            android:text="@string/notificationsProfile"
+            android:textColor="#8C3DCA"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/completedMilestones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notificationButton"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:clickable="true"
+            android:text="@string/completed_milestonesProfile"
+            android:textColor="#8C3DCA"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/signOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/completedMilestones"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:clickable="true"
+            android:text="@string/signOut"
+            android:textColor="#8C3DCA"
+            android:textSize="28dp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

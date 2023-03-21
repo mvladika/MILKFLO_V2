@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "145176948243",
+    "project_id": "milkflo-72d8f",
+    "storage_bucket": "milkflo-72d8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145176948243:android:1cf30bb96079041c3959e6",
+        "android_client_info": {
+          "package_name": "com.milkflo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145176948243-o4dd1uktuk2tba5jdv67pp2gli4p29f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7jsbJq19x8CmD0KVd5Y5EzXSG3dQNRL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145176948243-o4dd1uktuk2tba5jdv67pp2gli4p29f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
